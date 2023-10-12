@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1>
+            <strong>Analisador de Números</strong>
+        </h1>
+    </header>
+
+    <section id="section">
+        <div id="usuario">
+            <p>
+                Número (entre 1 e 100):
+                <input type="number" name="txtn1" id="input">
+                <input type="button" value="Adicionar" onclick="adicionou()">
+                <br><br><select name="flista" id="flista" size="6"></select>
+                <br><input type="button" value="Finalizar" onclick="finalizar()">
+            </p>
+        </div>
+
+        <div id="aguardando">
+                Aguardando...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; henriqueferraz1999</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
