@@ -1,5 +1,3 @@
-//AULA Vetores (parte 2) IMPORTANTE!!!
-
 let array = []
 
 function adicionou() {
@@ -44,6 +42,6 @@ function finalizar() {
         <br><br> O menor valor cadastrado é ${array[0]}.
         <br><br> O maior valor cadastrado é ${m}.
         <br><br> A soma dos valores é ${s}.
-        <br><br> A média dos valores é ${s/2}.`
+        <br><br> A média dos valores é ${s/array.length}.`
     }
 }
