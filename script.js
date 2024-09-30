@@ -26,7 +26,7 @@ function finalizar() {
         window.alert('Por favor, cadastre mais números na sequência e tente novamente.');
    // } else if () {
     } else {
-        array.sort();
+        array = array.sort();
         let s = Number(array[0]);
         for (let pos = 1;pos < array.length; pos++) {
             s += Number(array[pos]);
@@ -43,5 +43,6 @@ function finalizar() {
         <br><br> O maior valor cadastrado é ${array[array.length - 1]}.
         <br><br> A soma dos valores é ${s}.
         <br><br> A média dos valores é ${s / array.length}.`;
+        array = [];
     };
 }
